@@ -1,26 +1,39 @@
 {
 	"name": "wayne-abarquez/mycomposer",
-	"description": "A lightweight and powerful OAuth 2.0 authorization and resource server library with support for all the core specification grants. This library will allow you to secure your API with OAuth and allow your applications users to approve apps that want to access their data from your API.",
-	"homepage": "",
+	"description": "This is a very cool package!",
+    "version": "0.0.1",
+	"type": "library",
+	"keywords": ["logging", "cool", "awesome"],
+	"homepage": "https://github.com/wayne-abarquez/mycomposertest",
 	"license": "MIT",
-	"require": {
-		"wayneabarquez/mycomposertest": "master"
-	},
-	"repositories": [
-		{
-			"type": "git",
-			"url": "https://github.com/wayne-abarquez/mycomposertest.git"
-		}
-	],
-	"keywords": [
-		"composer",
-		"test"
-	],
 	"authors": [
 		{
 			"name": "Wayne Abarquez",
-			"email": "waynearila@gmail.com",
+			"email": "wayne.abarquez@navagis.com",
 			"role": "Solutions Developer"
+		}
+	],
+	"require": {
+		"wayne-abarquez/mycomposertest": "master"
+	},
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name":  "wayne-abarquez/mycomposertest",
+				"version": "master",
+				"source": {
+					"url": "https://github.com/wayne-abarquez/mycomposertest.git",
+					"type": "git",
+					"reference": "master"
+				},
+				"autoload": {
+					"psr-0" : {
+						"Hpw\\": "src/Hpw/"
+					}
+				}
+			}
+			
 		}
 	],
 	"autoload": {
