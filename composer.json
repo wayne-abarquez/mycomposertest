@@ -1,0 +1,31 @@
+{
+	"name": "wayne-abarquez/mycomposer",
+	"description": "A lightweight and powerful OAuth 2.0 authorization and resource server library with support for all the core specification grants. This library will allow you to secure your API with OAuth and allow your applications users to approve apps that want to access their data from your API.",
+	"homepage": "",
+	"license": "MIT",
+	"require": {
+		"wayneabarquez/mycomposertest": "master"
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/wayne-abarquez/mycomposertest.git"
+		}
+	],
+	"keywords": [
+		"composer",
+		"test"
+	],
+	"authors": [
+		{
+			"name": "Wayne Abarquez",
+			"email": "waynearila@gmail.com",
+			"role": "Solutions Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"WayneAbarquez\\MyComposer\\": "src/"
+		}
+	}
+}
