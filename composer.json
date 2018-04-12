@@ -30,7 +30,10 @@
 				}
 			},
             "autoload": {
-                "classmap": ["/src"]
+                "classmap": ["/src"],
+                "psr-4": {
+		            "Hpw\\": "src/Hpw"
+		        }
             }
 		}
 	],
