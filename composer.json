@@ -30,16 +30,10 @@
 				}
 			},
             "autoload": {
-                "classmap": ["/", "/src/Hpw"],
-                "psr-0": {
-		            "Hpw\\": "src/Hpw"
+                "psr-4": {
+		            "WayneAbarquez\\MyComposerTest\\": "src/"
 		        }
             }
 		}
-	],
-	"autoload": {
-        "psr-4": {
-            "WayneAbarquez\\MyComposerTest\\": "src/"
-        }
-    },
+	]
 }

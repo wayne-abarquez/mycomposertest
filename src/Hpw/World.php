@@ -1,4 +1,4 @@
-<?php namespace WayneAbarquez\MyComposerTest\Hpw;
+<?php namespace Hpw;
 
 
 class World
