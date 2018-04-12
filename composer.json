@@ -14,6 +14,7 @@
 		}
 	],
 	"require": {
+		"php": "^5.3.3 || ^7.0",
 		"wayne-abarquez/mycomposertest": "master"
 	},
 	"repositories": [
@@ -27,12 +28,12 @@
 					"type": "git",
 					"reference": "master"
 				}
-			},
-            "autoload": {
-                "psr-4": {
-					"WayneAbarquez\\MyComposerTest\\": "src/"
-				}
-            }
+			}
 		}
-	]
+	],
+	"autoload": {
+        "psr-4": {
+            "WayneAbarquez\\MyComposerTest\\": "src/Hpw/"
+        }
+    }
 }
