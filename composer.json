@@ -30,8 +30,8 @@
 				}
 			},
             "autoload": {
-                "classmap": ["/src"],
-                "psr-4": {
+                "classmap": ["/src/Hpw"],
+                "psr-0": {
 		            "Hpw\\": "src/Hpw"
 		        }
             }
@@ -39,7 +39,7 @@
 	],
 	"autoload": {
         "psr-4": {
-            "WayneAbarquez\\MyComposerTest\\": "src/"
+            "WayneAbarquez\\MyComposerTest\\": ""
         }
     },
 }
