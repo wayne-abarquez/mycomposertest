@@ -5,6 +5,6 @@ class World
 {
 	public static function sayWorld() 
 	{
-		echo "World!";
+		echo "World!!";
 	}
 }
