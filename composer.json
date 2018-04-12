@@ -18,8 +18,8 @@
 	},
 	"repositories": [
 		{
-			"type": "package",
-			"package": {
+			"type": "library",
+			"library": {
 				"name":  "wayne-abarquez/mycomposertest",
 				"version": "0.0.1",
 				"source": {
