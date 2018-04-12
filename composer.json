@@ -35,5 +35,10 @@
 			}
 			
 		}
-	]
+	],
+	"autoload": {
+		"psr-4": {
+			"WayneAbarquez\\MyComposerTest\\Hpw": "src/Hpw"
+		}
+	}
 }
