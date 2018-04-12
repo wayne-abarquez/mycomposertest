@@ -33,7 +33,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"WayneAbarquez\\MyComposerTest\\": "src/"
+			"WayneAbarquez\\MyComposerTest\\Hpw": "src/Hpw"
 		}
 	}
 }
