@@ -1,7 +1,6 @@
 {
 	"name": "wayne-abarquez/mycomposer",
 	"description": "This is a very cool package!",
-    "version": "0.0.3",
 	"type": "library",
 	"keywords": ["logging", "cool", "awesome"],
 	"homepage": "https://github.com/wayne-abarquez/mycomposertest",
@@ -15,25 +14,25 @@
 	],
 	"require": {
 		"php": "^5.3.3 || ^7.0",
-		"wayne-abarquez/mycomposertest": "master"
+		"wayne-abarquez/mycomposertest": "0.0.1"
 	},
 	"repositories": [
 		{
 			"type": "package",
 			"package": {
 				"name":  "wayne-abarquez/mycomposertest",
-				"version": "master",
+				"version": "0.0.1",
 				"source": {
 					"url": "https://github.com/wayne-abarquez/mycomposertest.git",
 					"type": "git",
 					"reference": "master"
-				}
-			},
-            "autoload": {
-                "psr-4": {
-		            "WayneAbarquez\\MyComposerTest\\": "src/"
-		        }
-            }
+				},
+				"autoload": {
+	                "psr-4": {
+			            "WayneAbarquez\\MyComposerTest\\": "src/"
+			        }
+            	}
+			}
 		}
 	]
 }
