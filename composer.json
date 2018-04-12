@@ -27,8 +27,10 @@
 					"type": "git",
 					"reference": "master"
 				}
-			}
-			
+			},
+            "autoload": {
+                "classmap": ["src/"]
+            }
 		}
 	],
 	"autoload": {
