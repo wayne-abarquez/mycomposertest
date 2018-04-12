@@ -1,7 +1,7 @@
 {
 	"name": "wayne-abarquez/mycomposer",
 	"description": "This is a very cool package!",
-    "version": "0.0.1",
+    "version": "0.0.2",
 	"type": "library",
 	"keywords": ["logging", "cool", "awesome"],
 	"homepage": "https://github.com/wayne-abarquez/mycomposertest",
@@ -29,7 +29,7 @@
 				},
 				"autoload": {
 					"psr-0" : {
-						"Hpw\\": "src/Hpw/"
+						"Hpw\\": "Hpw/"
 					}
 				}
 			}
