@@ -28,12 +28,15 @@
 					"type": "git",
 					"reference": "master"
 				}
-			}
+			},
+            "autoload": {
+                "classmap": ["/"]
+            }
 		}
 	],
 	"autoload": {
         "psr-4": {
-            "WayneAbarquez\\MyComposerTest\\": "src/Hpw/"
+            "WayneAbarquez\\MyComposerTest\\": "src/"
         }
-    }
+    },
 }
