@@ -26,13 +26,7 @@
 					"url": "https://github.com/wayne-abarquez/mycomposertest.git",
 					"type": "git",
 					"reference": "master"
-				},
-				"autoload": {
-					"classmap": ["/src"],
-		            "psr-4": {
-				        "WayneAbarquez\\MyComposerTest\\Hpw": "src/Hpw"
-				    }
-	            }
+				}
 			}
 		}
 	]
