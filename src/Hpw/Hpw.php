@@ -1,4 +1,4 @@
-<?php namespace Hpw;
+<?php namespace WayneAbarquez\MyComposerTest\Hpw;
 
 use App\BaseModel;
 use Illuminate\Support\Facades\DB;

@@ -26,13 +26,18 @@
 					"url": "https://github.com/wayne-abarquez/mycomposertest.git",
 					"type": "git",
 					"reference": "master"
-				},
-				"autoload": {
-	                "psr-4": {
-			            "WayneAbarquez\\MyComposerTest\\": "src/"
-			        }
-            	}
-			}
+				}
+			},
+			"autoload": {
+	            "psr-4": {
+			        "WayneAbarquez\\MyComposerTest\\": "src/"
+			    }
+            }
 		}
-	]
+	],
+	"autoload": {
+	    "psr-4": {
+	        "WayneAbarquez\\MyComposerTest\\": "src/"
+	    }
+    }
 }
